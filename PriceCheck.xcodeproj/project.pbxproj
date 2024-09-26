@@ -15,6 +15,8 @@
 		E7D5EE302532590500C17A92 /* scan_api_data.json in Resources */ = {isa = PBXBuildFile; fileRef = E7D5EE2F2532590500C17A92 /* scan_api_data.json */; };
 		E7D5EE342532599C00C17A92 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D5EE332532599C00C17A92 /* Helper.swift */; };
 		E7D5EE3725325A7000C17A92 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D5EE3625325A7000C17A92 /* Location.swift */; };
+		EB075A892CA5BB6900EF6EC3 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB075A882CA5BB6900EF6EC3 /* LocationView.swift */; };
+		EB075A8D2CA5BBF900EF6EC3 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB075A8C2CA5BBF900EF6EC3 /* ScanView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		E7D5EE2F2532590500C17A92 /* scan_api_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = scan_api_data.json; sourceTree = "<group>"; };
 		E7D5EE332532599C00C17A92 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		E7D5EE3625325A7000C17A92 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		EB075A882CA5BB6900EF6EC3 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		EB075A8C2CA5BBF900EF6EC3 /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,8 @@
 			isa = PBXGroup;
 			children = (
 				E7D5EE072531EA2500C17A92 /* ScanListView.swift */,
+				EB075A882CA5BB6900EF6EC3 /* LocationView.swift */,
+				EB075A8C2CA5BBF900EF6EC3 /* ScanView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -175,7 +181,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB075A8D2CA5BBF900EF6EC3 /* ScanView.swift in Sources */,
 				E7D5EE082531EA2500C17A92 /* ScanListView.swift in Sources */,
+				EB075A892CA5BB6900EF6EC3 /* LocationView.swift in Sources */,
 				E7D5EE3725325A7000C17A92 /* Location.swift in Sources */,
 				E7D5EE062531EA2500C17A92 /* PriceCheckApp.swift in Sources */,
 				E7D5EE182531EBB000C17A92 /* PriceScan.swift in Sources */,
